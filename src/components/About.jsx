@@ -7,7 +7,9 @@ function About() {
       <div className="about-container">
         {/* Image */}
         <div className="about-image">
-          <img src="/IMG_20250910_154858.jpg" alt="About me" />
+          {/* <img src="process.env.PUBLIC_URL +./IMG_20250911_075951.jpg" alt="About me" /> */}
+          <img src={process.env.PUBLIC_URL + '/IMG_20250911_075951.jpg'} alt="Profile" />
+
         </div>
 
         {/* Content */}
@@ -15,7 +17,7 @@ function About() {
           <h2 className="about-title">About Me</h2>
 
           <p className="about-text">
-            I’m a full-stack developer with a strong focus on building clean, 
+            I'm a full-stack developer with a strong focus on building clean, 
             scalable, and user-friendly applications. On the frontend, I 
             specialize in <strong>React, JavaScript, HTML, and CSS</strong> to 
             craft responsive and engaging interfaces. On the backend, I work 

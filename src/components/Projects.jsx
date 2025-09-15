@@ -63,7 +63,7 @@ function Projects() {
       title: "Portfolio Website",
        description: "A personal portfolio to showcase my projects and skills.",
       tech: ["ReactJS"],
-     image: "/portfolio.PNG", // replace with your own image
+     image: process.env.PUBLIC_URL + "/portfolio.PNG", // replace with your own image
       demo: "https://your-ecommerce-demo.com",
       github: "https://github.com/yourusername/ecommerce",
     },
@@ -71,7 +71,7 @@ function Projects() {
        title: "Movie App",
        description: "This app allows users to explore movies and TV shows using data from The Movie Database (TMDB) API",
       tech: ["React","TMDB api"],
-     image: "/project pic one.PNG", // replace with your own image
+     image: process.env.PUBLIC_URL+"/images/project-pic-one.png", // replace with your own image
       demo: "https://your-portfolio.com",
       github: "https://github.com/yourusername/portfolio",
     },
@@ -79,7 +79,7 @@ function Projects() {
       title: "Note taking App",
        description: "A simple note taking app, where the user can sign-up, login and create notes",
        tech: ["React, Django, Sqlite, JWT"],
-      image: "/adding a note.PNG", // replace with your own image
+      image: process.env.PUBLIC_URL+"/adding a note.PNG", // replace with your own image
       demo: "https://your-ml-demo.com",
       github: "https://github.com/yourusername/ml-dashboard",
     },
