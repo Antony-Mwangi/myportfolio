@@ -25,7 +25,7 @@ function Contact() {
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/0711668298"
+          href="https://wa.me/+254711668298"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-card"
@@ -45,7 +45,7 @@ function Contact() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/Antony-Mwangi/Antony-Mwangi"
+          href="https://github.com/Antony-Mwangi/"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-card"

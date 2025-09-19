@@ -35,9 +35,9 @@ function Footer() {
         <div className="footer-socials">
           <h3>Follow Me</h3>
           <div className="social-icons">
-            <a  href="https://github.com/Antony-Mwangi/Antony-Mwangi" target="_blank" rel="noopener noreferrer">🐙</a>
+            <a  href="https://github.com/Antony-Mwangi/" target="_blank" rel="noopener noreferrer">🐙</a>
             <a href="https://www.linkedin.com/in/antony-mwangi-524052335/" target="_blank" rel="noopener noreferrer">🔗</a>
-            <a href="https://wa.me/0711668298" target="_blank" rel="noopener noreferrer">💬</a>
+            <a href="https://wa.me/+254711668298" target="_blank" rel="noopener noreferrer">💬</a>
             <a href="mailto:antonymwangiw85@gmail.com">✉️</a>
           </div>
         </div>
