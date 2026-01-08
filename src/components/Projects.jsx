@@ -52,10 +52,10 @@ import "./Projects.css";
 function Projects() {
   const projectData = [
     {
-      title: "Portfolio Website",
-       description: "A personal portfolio to showcase my projects and skills.",
-      tech: ["ReactJS"],
-     image: process.env.PUBLIC_URL + "/1.Captureport.PNG", // replace with your own image
+      title: "MENTAL LAB",
+       description: "An E-Commerce store, where people can purchase books online.",
+      tech: ["ReactJS, DjangoRest Framework, SQLite, Axios"],
+     image: process.env.PUBLIC_URL + "/mental lab.PNG", // replace with your own image
     },
     {
        title: "Movie App",
@@ -69,6 +69,21 @@ function Projects() {
        description: "A simple note taking app, where the user can sign-up, login and create notes",
        tech: ["React, Django, Sqlite, JWT"],
       image: process.env.PUBLIC_URL+"/adding a note.PNG", // replace with your own image
+    
+    },
+    {
+      title: "NEXT-NOTES",
+       description: "A nextJS fullstack note taking app, where the user can register , login,  create and manage notes",
+       tech: ["Nextjs, Nodejs[nextjs],nextAuth, MongoDB."],
+      image: process.env.PUBLIC_URL+"/notely1.PNG", // replace with your own image
+    
+    },
+
+    {
+      title: "GO-DOWN SYSTEM",
+       description: "A NEXTJS frontend system for users to book space to store their goods",
+       tech: ["nextjs, Nodejs[Nextjs], "],
+      image: process.env.PUBLIC_URL+"/silquport.PNG", // replace with your own image
     
     },
   ];

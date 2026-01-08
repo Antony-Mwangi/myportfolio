@@ -40,8 +40,7 @@ function Hero() {
         {/* Profile Image */}
         <div className="hero-image">
           <img
-          src={process.env.PUBLIC_URL + '/IMG_20250911_075951.jpg'}
-  
+            src={process.env.PUBLIC_URL + '/port.PNG'}
             alt="Your profile"
             className="hero-photo"
           />
@@ -60,15 +59,12 @@ function Hero() {
 
           {/* Skills / Tech Stack */}
           <div className="hero-skills">
-            <span>React</span>
+             <span>React</span>
             <span>JavaScript</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Python</span>
+            <span>Node.js (Next.js)</span>
             <span>Django</span>
-            <span>PostgreSQL</span>
-            <span>Machine Learning</span>
-            <span>Git & Github</span>
+            <span>MongoDB</span>
+            <span>Git & GitHub</span>
           </div>
 
           {/* Call to Actions */}
