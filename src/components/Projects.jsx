@@ -61,7 +61,7 @@ function Projects() {
        title: "Movie App",
        description: "This app allows users to explore movies and TV shows using data from The Movie Database (TMDB) API",
       tech: ["React","TMDB api"],
-     image: process.env.PUBLIC_URL+"/images/project-pic-one.png", // replace with your own image
+     image: process.env.PUBLIC_URL+"/project pic one.PNG", // replace with your own image
     
     },
     {
