@@ -67,7 +67,10 @@ function About() {
             <span>Node.js (Next.js)</span>
             <span>Django</span>
             <span>MongoDB</span>
+            <span>Machine Learning</span>
             <span>Git & GitHub</span>
+            <span>Docker</span>
+            <span>Jenkins</span>
           </div>
         </div>
       </div>

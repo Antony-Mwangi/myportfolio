@@ -64,6 +64,9 @@ function Hero() {
             <span>Node.js (Next.js)</span>
             <span>Django</span>
             <span>MongoDB</span>
+            <span>Machine Learning</span>
+            <span>Docker</span>
+            <span>Jenkins</span>
             <span>Git & GitHub</span>
           </div>
 
