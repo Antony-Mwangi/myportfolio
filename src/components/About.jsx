@@ -27,7 +27,7 @@ function About() {
           <p className="about-text">
   I'm a full-stack developer focused on building clean, scalable, and user-friendly applications. 
   On the frontend, I specialize in <strong>React, nextJS and CSS</strong> to craft responsive and engaging interfaces. 
-  On the backend, I work with <strong>Node.js (Next.js), Django, and MongoDB</strong> to design robust APIs and manage data efficiently.
+  On the backend, I work with <strong>Next.js, Django Rest Framework,  and MongoDB</strong> to design robust APIs and manage data efficiently.
 </p>
 
 
@@ -66,10 +66,12 @@ function About() {
             <span>JavaScript</span>
             <span>Node.js (Next.js)</span>
             <span>Django</span>
+            <span>DRF</span>
             <span>MongoDB</span>
+            <span>Prisma</span>
             <span>Machine Learning</span>
             <span>Git & GitHub</span>
-            <span>Docker</span>
+            <span>Docker</span> 
             <span>Jenkins</span>
           </div>
         </div>
