@@ -40,7 +40,7 @@ function Hero() {
         {/* Profile Image */}
         <div className="hero-image">
           <img
-            src={process.env.PUBLIC_URL + '/port.PNG'}
+            src={process.env.PUBLIC_URL + '/portfoliopic.jpeg'}
             alt="Your profile"
             className="hero-photo"
           />
