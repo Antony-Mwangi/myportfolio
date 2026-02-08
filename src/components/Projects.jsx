@@ -55,35 +55,35 @@ function Projects() {
       title: "MENTAL LAB",
        description: "An E-Commerce store, where people can purchase books online.",
       tech: ["ReactJS, DjangoRest Framework, SQLite, Axios"],
-     image: process.env.PUBLIC_URL + "/mental lab.PNG", // replace with your own image
+     image: process.env.PUBLIC_URL + "/mental lab.PNG", 
     },
     {
        title: "Movie App",
        description: "This app allows users to explore movies and TV shows using data from The Movie Database (TMDB) API",
       tech: ["React","TMDB api"],
-     image: process.env.PUBLIC_URL+"/project pic one.PNG", // replace with your own image
+     image: process.env.PUBLIC_URL+"/project pic one.PNG", 
     
     },
     {
       title: "Note taking App",
        description: "A simple note taking app, where the user can sign-up, login and create notes",
        tech: ["React, Django, Sqlite, JWT"],
-      image: process.env.PUBLIC_URL+"/adding a note.PNG", // replace with your own image
+      image: process.env.PUBLIC_URL+"/adding a note.PNG", 
     
     },
     {
       title: "NEXT-NOTES",
        description: "A nextJS fullstack note taking app, where the user can register , login,  create and manage notes",
        tech: ["Nextjs, Nodejs[nextjs],nextAuth, MongoDB."],
-      image: process.env.PUBLIC_URL+"/notely1.PNG", // replace with your own image
+      image: process.env.PUBLIC_URL+"/notely1.PNG", 
     
     },
 
     {
       title: "GO-DOWN SYSTEM",
        description: "A NEXTJS frontend system for users to book space to store their goods",
-       tech: ["nextjs, Nodejs[Nextjs], "],
-      image: process.env.PUBLIC_URL+"/silquport.PNG", // replace with your own image
+       tech: ["nextjs, "],
+      image: process.env.PUBLIC_URL+"/silquport.PNG", 
     
     },
 
@@ -91,7 +91,7 @@ function Projects() {
       title: "AI-POWERED MAIZE CROP YIELD PREDICTION SYSTEM",
        description: "AI Maize Yield Predictor is a full-stack web application that uses machine learning to predict maize crop yield based on soil nutrients and weather conditions. It features a Django REST backend, a Next.js dashboard, user authentication, prediction history, and data-driven insights to support smart farming decisions.",
        tech: ["nextjs, Django, SQLite, SciKit-Learn, Machine Learning"],
-      image: process.env.PUBLIC_URL+"/agric.PNG", // replace with your own image
+      image: process.env.PUBLIC_URL+"/corn-cast.PNG", 
     
     },
 
@@ -99,7 +99,7 @@ function Projects() {
       title: "Pips-Hunter",
        description: "Pips Hunter Academy is a self-paced trading education platform built around the three pillars of successful trading: psychology, risk management, and market analysis.In addition to structured lessons, the platform includes trade journaling to help users review decisions, identify patterns, and build long-term consistency. Users can create an account, log in securely, track learning progress, and document their trading journey in one place.",
        tech: ["nextjs, MongoDB"],
-      image: process.env.PUBLIC_URL+"/pips.PNG", // replace with your own image
+      image: process.env.PUBLIC_URL+"/pips.PNG", 
     
     },
   ];
