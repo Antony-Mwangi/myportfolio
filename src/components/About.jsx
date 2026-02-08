@@ -64,7 +64,7 @@ function About() {
           <div className="tech-grid">
             <span>React</span>
             <span>JavaScript</span>
-            <span>Node.js (Next.js)</span>
+            <span>Next.js</span>
             <span>Django</span>
             <span>DRF</span>
             <span>MongoDB</span>
