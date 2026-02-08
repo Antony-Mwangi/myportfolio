@@ -1,33 +1,3 @@
-// import React from "react";
-// import "./Hero.css"; // separate CSS for Hero
-
-// function Hero() {
-//   return (
-//     <section className="hero" id="hero">
-//       <div className="hero-container">
-//         {/* Replace with your own profile photo */}
-//         <img
-//           src="/IMG_20250910_154858.jpg"
-//           alt="Your profile"
-//           className="hero-photo"
-//         />
-
-//         <h1 className="hero-title">Hi, I'm Antony Mwangi</h1>
-//         <h2 className="hero-subtitle">Fullstack Website developer</h2>
-        
-//         <p className="hero-tagline">
-//           I build clean, interactive, and user-friendly web applications.
-//         </p>
-
-//         <a href="\mycv2.docx" download className="resume-btn">
-//           Download Resume
-//         </a>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Hero;
 
 
 import React from "react";
@@ -65,6 +35,10 @@ function Hero() {
             <span>Django</span>
             <span>DRF</span>
             <span>MongoDB</span>
+             <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
             <span>Machine Learning</span>
             <span>Docker</span>
             <span>Jenkins</span>

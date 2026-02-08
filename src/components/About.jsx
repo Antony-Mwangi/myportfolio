@@ -69,6 +69,11 @@ function About() {
             <span>DRF</span>
             <span>MongoDB</span>
             <span>Prisma</span>
+            <span>scikit learn</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
             <span>Machine Learning</span>
             <span>Git & GitHub</span>
             <span>Docker</span> 
