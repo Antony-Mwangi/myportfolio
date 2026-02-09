@@ -74,7 +74,7 @@ function Projects() {
     {
       title: "NEXT-NOTES",
        description: "A nextJS fullstack note taking app, where the user can register , login,  create and manage notes",
-       tech: ["Nextjs, Nodejs[nextjs],nextAuth, MongoDB."],
+       tech: ["Nextjs,nextAuth, MongoDB."],
       image: process.env.PUBLIC_URL+"/notely1.PNG", 
     
     },
