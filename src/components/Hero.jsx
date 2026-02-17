@@ -50,7 +50,7 @@ function Hero() {
             <a href="#contact" className="btn-primary">
               Hire Me
             </a>
-            <a href="\RESUME.docx" download className="btn-secondary">
+            <a href="\RESUME (10).docx" download className="btn-secondary">
               Download Resume
             </a>
           </div>
