@@ -1,49 +1,3 @@
-// import React from "react";
-// import ProjectCard from "./ProjectCard";
-// import "./Projects.css";
-
-// function Projects() {
-//   const projectData = [
-//     {
-//       title: "Portfolio Website",
-//       description: "A personal portfolio to showcase my projects and skills.",
-//       tech: ["React", "CSS"],
-//       liveLink: "#", // replace with your live URL
-//       githubLink: "#", // replace with your GitHub repo
-//       image: "/portfolio.PNG", // replace with your screenshot
-//     },
-//     {
-//       title: "Note taking App",
-//       description: "A simple note taking app, where the user can sign-up, login and create notes",
-//       tech: ["React, Django, Sqlite, JWT"],
-//       liveLink: "#",
-//       githubLink: "#",
-//       image: "/adding a note.PNG",
-//     },
-//     {
-//       title: "Movie App",
-//       description: "This app allows users to explore movies and TV shows using data from The Movie Database (TMDB) API",
-//       tech: ["React","TMDB api"],
-//       liveLink: "#",
-//       githubLink: "#",
-//       image: "/project pic one.PNG",
-//     },
-//   ];
-
-//   return (
-//     <section className="projects" id="projects">
-//       <h2 className="projects-title">My Projects</h2>
-//       <div className="projects-grid">
-//         {projectData.map((project, index) => (
-//           <ProjectCard key={index} project={project} />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Projects;
-
 
 
 import React from "react";
@@ -90,7 +44,7 @@ function Projects() {
      {
       title: "AI-POWERED MAIZE CROP YIELD PREDICTION SYSTEM",
        description: "AI Maize Yield Predictor is a full-stack web application that uses machine learning to predict maize crop yield based on soil nutrients and weather conditions. It features a Django REST backend, a Next.js dashboard, user authentication, prediction history, and data-driven insights to support smart farming decisions.",
-       tech: ["nextjs, Django, SQLite, SciKit-Learn, Machine Learning"],
+       tech: ["nextjs, Django, SQLite, SciKit-Learn, Machine Learning[Random Forest], JWT"],
       image: process.env.PUBLIC_URL+"/corn-cast.PNG", 
     
     },
@@ -98,7 +52,7 @@ function Projects() {
      {
       title: "Pips-Hunter",
        description: "Pips Hunter Academy is a self-paced trading education platform built around the three pillars of successful trading: psychology, risk management, and market analysis.In addition to structured lessons, the platform includes trade journaling to help users review decisions, identify patterns, and build long-term consistency. Users can create an account, log in securely, track learning progress, and document their trading journey in one place.",
-       tech: ["nextjs, MongoDB"],
+       tech: ["nextjs,nextjs api routes,  MongoDB"],
       image: process.env.PUBLIC_URL+"/pips.PNG", 
     
     },
