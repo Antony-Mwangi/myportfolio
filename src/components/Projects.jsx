@@ -44,7 +44,7 @@ function Projects() {
      {
       title: "AI-POWERED MAIZE CROP YIELD PREDICTION SYSTEM",
        description: "AI Maize Yield Predictor is a full-stack web application that uses machine learning to predict maize crop yield based on soil nutrients and weather conditions. It features a Django REST backend, a Next.js dashboard, user authentication, prediction history, and data-driven insights to support smart farming decisions.",
-       tech: ["nextjs, Django, SQLite, SciKit-Learn, Machine Learning[Random Forest], JWT"],
+       tech: ["nextjs, Django, SQLite, SciKit-Learn, Machine Learning[Random Forest Algorithm], JWT"],
       image: process.env.PUBLIC_URL+"/corn-cast.PNG", 
     
     },
