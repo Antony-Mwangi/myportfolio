@@ -28,7 +28,7 @@ function Projects() {
     {
       title: "NEXT-NOTES",
        description: "A nextJS fullstack note taking app, where the user can register , login,  create and manage notes",
-       tech: ["Nextjs,nextAuth, MongoDB."],
+       tech: ["React, Nextjs,nextAuth, MongoDB."],
       image: process.env.PUBLIC_URL+"/notely1.PNG", 
     
     },
@@ -52,7 +52,7 @@ function Projects() {
      {
       title: "Pips-Hunter",
        description: "Pips Hunter Academy is a self-paced trading education platform built around the three pillars of successful trading: psychology, risk management, and market analysis.In addition to structured lessons, the platform includes trade journaling to help users review decisions, identify patterns, and build long-term consistency. Users can create an account, log in securely, track learning progress, and document their trading journey in one place.",
-       tech: ["nextjs,nextjs api routes,  MongoDB"],
+       tech: ["React,nextjs api routes,  MongoDB"],
       image: process.env.PUBLIC_URL+"/pips.PNG", 
     
     },
