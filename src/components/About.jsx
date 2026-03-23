@@ -43,6 +43,21 @@ function About() {
           <div className="tech-sections">
 
             
+           
+            <div className="tech-category">
+              <h4>Languages</h4>
+              <div className="tech-grid">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>Typescript</span>
+                <span>Python</span>
+                <span> SQL</span>
+                <span>C++</span>
+                
+              </div>
+            </div>
+
             <div className="tech-category">
               <h4>Frontend</h4>
               <div className="tech-grid">
