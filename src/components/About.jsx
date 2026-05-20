@@ -66,6 +66,7 @@ function About() {
                 <span>JavaScript</span>
                 <span>HTML</span>
                 <span>CSS</span>
+                <span>Tailwind CSS</span>
               </div>
             </div>
 
