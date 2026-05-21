@@ -66,10 +66,10 @@ function Projects() {
     },
 
     {
-      title: "Pips-Hunter",
-       description: "Pips Hunter Academy is a self-paced trading education platform built around the three pillars of successful trading: psychology, risk management, and market analysis.In addition to structured lessons, the platform includes trade journaling to help users review decisions, identify patterns, and build long-term consistency. Users can create an account, log in securely, track learning progress, and document their trading journey in one place.",
-       tech: ["React,nextjs api routes,  MongoDB"],
-      image: process.env.PUBLIC_URL+"/pips.PNG", 
+      title: "Shop management system",
+       description: "A comprehensive shop management system for handling inventory, sales, and customer relationships.",
+       tech: ["React,nextjs api routes,  MongoDB, openAI API, Tailwind CSS, JWT"],
+      image: process.env.PUBLIC_URL+"/shop.PNG", 
     
     },
   ];
