@@ -56,6 +56,22 @@ function Projects() {
       image: process.env.PUBLIC_URL+"/pips.PNG", 
     
     },
+
+    {
+      title: "Nutrition Assistant",
+       description: "Next-generation AI Nutrition Assistant. Input your physical targets, dietary restrictions, and preferred ingredients to instantly generate structured, professional-tier meal plans. Powered by Next.js, TypeScript, and Tailwind CSS.",
+       tech: ["React,Typescript, Tailwind CSS, Next.js API Routes, OpenAI API"],
+      image: process.env.PUBLIC_URL+"/NUT.PNG", 
+    
+    },
+
+    {
+      title: "Pips-Hunter",
+       description: "Pips Hunter Academy is a self-paced trading education platform built around the three pillars of successful trading: psychology, risk management, and market analysis.In addition to structured lessons, the platform includes trade journaling to help users review decisions, identify patterns, and build long-term consistency. Users can create an account, log in securely, track learning progress, and document their trading journey in one place.",
+       tech: ["React,nextjs api routes,  MongoDB"],
+      image: process.env.PUBLIC_URL+"/pips.PNG", 
+    
+    },
   ];
 
   return (
