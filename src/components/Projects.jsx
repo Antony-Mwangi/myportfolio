@@ -112,7 +112,6 @@ const ProjectModal = ({ project, onClose }) => {
 
 // Project Card Component
 const ProjectCard = ({ project, index, onExplore }) => {
-  const [isHovered, setIsHovered] = useState(false);
   const cardRef = useRef(null);
 
   const getCategoryIcon = (category) => {
@@ -144,8 +143,6 @@ const ProjectCard = ({ project, index, onExplore }) => {
       transition={{ duration: 0.6, delay: index * 0.1 }}
       viewport={{ once: true }}
       ref={cardRef}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       whileHover={{ y: -8 }}
     >
       <div className="card-glow"></div>
