@@ -1,7 +1,6 @@
 // Navbar.jsx - Premium Navigation Bar (No Theme Toggle)
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 
 // NavLink Component

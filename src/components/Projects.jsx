@@ -2,33 +2,15 @@
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  FaReact,
-  FaPython,
-  FaDatabase,
   FaCloud,
   FaCode,
   FaChartLine,
   FaRobot,
   FaShoppingCart,
   FaServer,
-  FaLock,
-  FaBrain,
-  FaChartBar,
-  FaCog,
   FaStar,
   FaTimes
 } from "react-icons/fa";
-import {
-  SiNextdotjs,
-  SiDjango,
-  SiTailwindcss,
-  SiTypescript,
-  SiMongodb,
-  SiSqlite,
-  SiScikitlearn,
-  SiOpenai,
-  SiJwt
-} from "react-icons/si";
 import "./Projects.css";
 
 // Project Modal Component
