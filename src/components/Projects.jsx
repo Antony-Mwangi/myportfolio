@@ -1,4 +1,4 @@
-// Projects.jsx - Complete Premium Projects Section
+  // Projects.jsx - Complete Premium Projects Section
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
