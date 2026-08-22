@@ -53,35 +53,50 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 80px;
 }
 
-/* Logo */
+/* Logo - Overlapping & Extended */
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
   text-decoration: none;
   color: var(--text-primary);
   cursor: pointer;
   position: relative;
+  z-index: 10;
+  height: 100%;
+  /* Allow logo to overlap outside the navbar */
+  margin-top: -12px;
+  margin-bottom: -12px;
 }
 
 .logo-container {
+  position: relative;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  transition: transform 0.3s ease;
 }
 
-/* Logo Image Styles - Bigger */
+.nav-logo:hover .logo-container {
+  transform: scale(1.05);
+}
+
+/* Logo Image Styles - Overlapping & Large */
 .logo-image {
-  height: 55px;
-  width: auto;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
   border: none;
   outline: none;
   background: transparent;
+  /* Mix blend for better visibility on dark backgrounds */
+  mix-blend-mode: screen;
 }
 
 /* Remove old logo styles */
@@ -94,40 +109,7 @@
 }
 
 .logo-status {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px;
-  background: rgba(52, 211, 153, 0.08);
-  border-radius: 20px;
-  border: 1px solid rgba(52, 211, 153, 0.12);
-  animation: statusPulse 3s ease-in-out infinite;
-}
-
-@keyframes statusPulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
-  50% { box-shadow: 0 0 20px rgba(52, 211, 153, 0.06); }
-}
-
-.status-indicator {
-  width: 6px;
-  height: 6px;
-  background: #34d399;
-  border-radius: 50%;
-  animation: pulse 2s ease-in-out infinite;
-  box-shadow: 0 0 10px rgba(52, 211, 153, 0.4);
-}
-
-.status-text {
-  font-size: 0.65rem;
-  font-weight: 500;
-  color: #34d399;
-  letter-spacing: 0.02em;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(0.8); }
+  display: none;
 }
 
 /* Navigation Links */
@@ -278,20 +260,23 @@
   margin-bottom: 24px;
 }
 
-/* Mobile Logo Image - Bigger */
+/* Mobile Logo Image - Overlapping & Large */
 .mobile-logo-img {
-  height: 45px;
-  width: auto;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   display: block;
   border: none;
   outline: none;
   background: transparent;
+  mix-blend-mode: screen;
 }
 
 .mobile-brand {
   display: flex;
   align-items: center;
+  margin-top: -12px;
+  margin-bottom: -12px;
 }
 
 .mobile-nav-links {
@@ -425,18 +410,24 @@
     display: none;
   }
 
-  /* Adjust logo size on mobile */
-  .logo-image {
-    height: 42px;
+  /* Adjust logo size on mobile - overlapping */
+  .logo-container {
+    width: 65px;
+    height: 65px;
   }
 
   .nav-container {
     padding: 0 16px;
-    height: 64px;
+    height: 72px;
   }
 
   .navbar {
     padding: 8px 0;
+  }
+
+  .nav-logo {
+    margin-top: -8px;
+    margin-bottom: -8px;
   }
 
   .back-to-top {
@@ -464,12 +455,14 @@
   }
 
   /* Further adjust logo on very small screens */
-  .logo-image {
-    height: 36px;
+  .logo-container {
+    width: 55px;
+    height: 55px;
   }
 
   .mobile-logo-img {
-    height: 38px;
+    width: 50px;
+    height: 50px;
   }
 }
 
