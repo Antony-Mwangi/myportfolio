@@ -80,17 +80,13 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease;
-  /* Match navbar background */
-  background: rgba(8, 12, 35, 0.97);
-  border-radius: 12px;
-  padding: 8px;
 }
 
 .nav-logo:hover .logo-container {
   transform: scale(1.08);
 }
 
-/* Logo Image Styles - SVG with matching background */
+/* Logo Image Styles - Overlapping & Large */
 .logo-image {
   width: 100%;
   height: 100%;
@@ -99,6 +95,8 @@
   border: none;
   outline: none;
   background: transparent;
+  /* Mix blend for better visibility on dark backgrounds */
+  mix-blend-mode: screen;
 }
 
 /* Remove old logo styles */
@@ -262,7 +260,7 @@
   margin-bottom: 24px;
 }
 
-/* Mobile Logo Image - SVG with matching background */
+/* Mobile Logo Image - Overlapping & Large */
 .mobile-logo-img {
   width: 75px;
   height: 75px;
@@ -270,9 +268,8 @@
   display: block;
   border: none;
   outline: none;
-  background: rgba(8, 12, 35, 0.97);
-  border-radius: 10px;
-  padding: 6px;
+  background: transparent;
+  mix-blend-mode: screen;
 }
 
 .mobile-brand {
@@ -417,7 +414,6 @@
   .logo-container {
     width: 80px;
     height: 80px;
-    padding: 6px;
   }
 
   .nav-container {
@@ -462,13 +458,11 @@
   .logo-container {
     width: 65px;
     height: 65px;
-    padding: 5px;
   }
 
   .mobile-logo-img {
     width: 60px;
     height: 60px;
-    padding: 5px;
   }
 
   .nav-logo {
