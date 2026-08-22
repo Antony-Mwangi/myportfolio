@@ -1,8 +1,8 @@
-/* Navbar.css - Premium Navbar with Green Theme & Black Background */
+/* Navbar.css - Premium Navbar with Green Theme & Navy Blue Background */
 :root {
-  --nav-bg: rgba(0, 0, 0, 0.95);
+  --nav-bg: rgba(10, 15, 40, 0.95);
   --nav-border: rgba(52, 211, 153, 0.08);
-  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
   --text-primary: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --accent: #34d399;
@@ -40,10 +40,10 @@
 
 .navbar.scrolled {
   padding: 8px 0;
-  background: rgba(0, 0, 0, 0.98);
+  background: rgba(10, 15, 40, 0.98);
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
-  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
@@ -53,7 +53,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 70px;
 }
 
 /* Logo */
@@ -73,9 +73,9 @@
   gap: 10px;
 }
 
-/* Logo Image Styles */
+/* Logo Image Styles - Bigger */
 .logo-image {
-  height: 40px;
+  height: 55px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -245,7 +245,7 @@
 .mobile-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(10, 15, 40, 0.8);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   z-index: 9998;
@@ -258,7 +258,7 @@
   width: 320px;
   max-width: 85vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.98);
+  background: rgba(10, 15, 40, 0.98);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   border-left: 1px solid var(--nav-border);
@@ -266,7 +266,7 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.6);
+  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .mobile-menu-header {
@@ -278,9 +278,9 @@
   margin-bottom: 24px;
 }
 
-/* Mobile Logo Image */
+/* Mobile Logo Image - Bigger */
 .mobile-logo-img {
-  height: 35px;
+  height: 45px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -427,12 +427,12 @@
 
   /* Adjust logo size on mobile */
   .logo-image {
-    height: 32px;
+    height: 42px;
   }
 
   .nav-container {
     padding: 0 16px;
-    height: 56px;
+    height: 64px;
   }
 
   .navbar {
@@ -465,7 +465,11 @@
 
   /* Further adjust logo on very small screens */
   .logo-image {
-    height: 28px;
+    height: 36px;
+  }
+
+  .mobile-logo-img {
+    height: 38px;
   }
 }
 
