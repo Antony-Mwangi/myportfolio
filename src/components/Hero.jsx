@@ -296,7 +296,7 @@ function Hero() {
               visible: { opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.6 } }
             }}
           >
-            👋 Hi, I'm Antony Mwangi
+             Hi, I'm Antony Mwangi
           </motion.h1>
 
           {/* Typing Animation */}
@@ -336,7 +336,7 @@ function Hero() {
             }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Antony-Mwangi/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 360 }}
@@ -346,7 +346,7 @@ function Hero() {
               <span className="social-tooltip">GitHub</span>
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/antony-mwangi-524052335/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 360 }}
@@ -356,7 +356,7 @@ function Hero() {
               <span className="social-tooltip">LinkedIn</span>
             </motion.a>
             <motion.a
-              href="mailto:antony@example.com"
+              href="mailto:antonymwangiw85@gmail.com"
               whileHover={{ scale: 1.2, rotate: 360 }}
               transition={{ duration: 0.3 }}
             >
@@ -364,7 +364,7 @@ function Hero() {
               <span className="social-tooltip">Email</span>
             </motion.a>
             <motion.a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254711668298"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 360 }}
