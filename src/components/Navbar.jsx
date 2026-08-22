@@ -82,7 +82,7 @@ const MobileMenu = ({ isOpen, links, active, onLinkClick }) => {
           >
             <div className="mobile-menu-header">
               <span className="mobile-brand">
-                <img src="/mylogo.jpeg" alt="Logo" className="mobile-logo-img" />
+                <img src="/mylogo.svg" alt="Logo" className="mobile-logo-img" />
               </span>
             </div>
             
