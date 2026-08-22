@@ -211,8 +211,8 @@ function Hero() {
   const typingWords = [
     "Full-Stack Web Developer",
     "React & Next.js Developer",
-    "Django Backend Engineer",
-    "Machine Learning Enthusiast"
+    "Backend Develope",
+    "Machine Learning Specialist"
   ];
 
   const floatingIcons = [
@@ -387,7 +387,7 @@ function Hero() {
             <Button href="#projects" primary icon={FaArrowRight}>
               View My Projects
             </Button>
-            <Button href="/RESUME (10).docx" download icon={FaDownload}>
+            <Button href="/RESUME1.pdf" download icon={FaDownload}>
               Download Resume
             </Button>
           </motion.div>
@@ -416,7 +416,7 @@ function Hero() {
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
               <img
-                src={process.env.PUBLIC_URL + '/portfoliopic.jpeg'}
+                src={process.env.PUBLIC_URL + '/mylogo.jpeg'}
                 alt="Antony Mwangi"
                 className="profile-image"
               />

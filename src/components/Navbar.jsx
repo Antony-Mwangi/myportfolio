@@ -81,7 +81,9 @@ const MobileMenu = ({ isOpen, links, active, onLinkClick }) => {
             exit="closed"
           >
             <div className="mobile-menu-header">
-              <span className="mobile-brand">Antony.dev</span>
+              <span className="mobile-brand">
+                <img src="/mylogo.jpeg" alt="Logo" className="mobile-logo-img" />
+              </span>
             </div>
             
             <ul className="mobile-nav-links">
@@ -215,12 +217,7 @@ function Navbar() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="logo-container">
-              <div className="logo-monogram">AM</div>
-              <div className="logo-text">
-                <span className="logo-name">Antony</span>
-                <span className="logo-dot">.</span>
-                <span className="logo-dev">dev</span>
-              </div>
+              <img src="/mylogo.jpeg" alt="Logo" className="logo-image" />
             </div>
             <div className="logo-status">
               <span className="status-indicator"></span>

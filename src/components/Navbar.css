@@ -1,8 +1,8 @@
-/* Navbar.css - Premium Navbar with Green Theme & Dark Background */
+/* Navbar.css - Premium Navbar with Green Theme & Black Background */
 :root {
-  --nav-bg: rgba(10, 10, 15, 0.9);
-  --nav-border: rgba(52, 211, 153, 0.10);
-  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --nav-bg: rgba(0, 0, 0, 0.95);
+  --nav-border: rgba(52, 211, 153, 0.08);
+  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
   --text-primary: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --accent: #34d399;
@@ -40,10 +40,10 @@
 
 .navbar.scrolled {
   padding: 8px 0;
-  background: var(--nav-bg);
+  background: rgba(0, 0, 0, 0.98);
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
-  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
 }
 
 .nav-container {
@@ -73,49 +73,24 @@
   gap: 10px;
 }
 
-.logo-monogram {
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #059669, #34d399);
-  border-radius: 10px;
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: #ffffff;
-  box-shadow: 0 4px 15px rgba(52, 211, 153, 0.3);
-  animation: logoGlow 3s ease-in-out infinite;
+/* Logo Image Styles */
+.logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  border: none;
+  outline: none;
+  background: transparent;
 }
 
-@keyframes logoGlow {
-  0%, 100% { box-shadow: 0 4px 15px rgba(52, 211, 153, 0.3); }
-  50% { box-shadow: 0 4px 30px rgba(52, 211, 153, 0.5); }
+/* Remove old logo styles */
+.logo-monogram {
+  display: none;
 }
 
 .logo-text {
-  display: flex;
-  align-items: center;
-  font-size: 1.2rem;
-  font-weight: 600;
-  font-family: 'Space Grotesk', sans-serif;
-}
-
-.logo-name {
-  background: linear-gradient(135deg, #059669, #34d399);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.logo-dot {
-  color: #34d399;
-  -webkit-text-fill-color: #34d399;
-}
-
-.logo-dev {
-  color: var(--text-secondary);
-  -webkit-text-fill-color: var(--text-secondary);
+  display: none;
 }
 
 .logo-status {
@@ -123,15 +98,15 @@
   align-items: center;
   gap: 6px;
   padding: 4px 10px;
-  background: rgba(52, 211, 153, 0.10);
+  background: rgba(52, 211, 153, 0.08);
   border-radius: 20px;
-  border: 1px solid rgba(52, 211, 153, 0.20);
+  border: 1px solid rgba(52, 211, 153, 0.12);
   animation: statusPulse 3s ease-in-out infinite;
 }
 
 @keyframes statusPulse {
   0%, 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
-  50% { box-shadow: 0 0 20px rgba(52, 211, 153, 0.08); }
+  50% { box-shadow: 0 0 20px rgba(52, 211, 153, 0.06); }
 }
 
 .status-indicator {
@@ -140,7 +115,7 @@
   background: #34d399;
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
-  box-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.4);
 }
 
 .status-text {
@@ -208,9 +183,9 @@
 .nav-link-active-indicator {
   position: absolute;
   inset: 0;
-  background: rgba(52, 211, 153, 0.08);
+  background: rgba(52, 211, 153, 0.06);
   border-radius: 8px;
-  border: 1px solid rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.08);
 }
 
 /* Nav Actions */
@@ -238,7 +213,7 @@
 
 .hamburger:hover {
   background: rgba(52, 211, 153, 0.05);
-  border-color: rgba(52, 211, 153, 0.2);
+  border-color: rgba(52, 211, 153, 0.15);
 }
 
 .hamburger span {
@@ -270,7 +245,7 @@
 .mobile-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   z-index: 9998;
@@ -283,7 +258,7 @@
   width: 320px;
   max-width: 85vw;
   height: 100vh;
-  background: rgba(10, 10, 15, 0.95);
+  background: rgba(0, 0, 0, 0.98);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   border-left: 1px solid var(--nav-border);
@@ -291,7 +266,7 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.4);
+  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.6);
 }
 
 .mobile-menu-header {
@@ -303,13 +278,20 @@
   margin-bottom: 24px;
 }
 
+/* Mobile Logo Image */
+.mobile-logo-img {
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 .mobile-brand {
-  font-size: 1.1rem;
-  font-weight: 600;
-  background: linear-gradient(135deg, #059669, #34d399);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  display: flex;
+  align-items: center;
 }
 
 .mobile-nav-links {
@@ -364,14 +346,14 @@
 }
 
 .mobile-nav-link.active {
-  background: rgba(52, 211, 153, 0.08);
+  background: rgba(52, 211, 153, 0.06);
   color: var(--accent);
-  border: 1px solid rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.08);
 }
 
 .mobile-link-number {
   font-size: 0.7rem;
-  color: rgba(52, 211, 153, 0.5);
+  color: rgba(52, 211, 153, 0.4);
   font-weight: 600;
   min-width: 24px;
 }
@@ -381,7 +363,7 @@
 }
 
 .mobile-link-arrow {
-  color: rgba(52, 211, 153, 0.3);
+  color: rgba(52, 211, 153, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -404,7 +386,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 30px rgba(52, 211, 153, 0.3);
+  box-shadow: 0 8px 30px rgba(52, 211, 153, 0.25);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   z-index: 9997;
   animation: btnFloat 3s ease-in-out infinite;
@@ -417,7 +399,7 @@
 
 .back-to-top:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 12px 40px rgba(52, 211, 153, 0.4);
+  box-shadow: 0 12px 40px rgba(52, 211, 153, 0.35);
 }
 
 .back-to-top:active {
@@ -443,14 +425,9 @@
     display: none;
   }
 
-  .logo-text {
-    font-size: 1rem;
-  }
-
-  .logo-monogram {
-    width: 30px;
-    height: 30px;
-    font-size: 0.75rem;
+  /* Adjust logo size on mobile */
+  .logo-image {
+    height: 32px;
   }
 
   .nav-container {
@@ -484,6 +461,11 @@
   .back-to-top svg {
     width: 16px;
     height: 16px;
+  }
+
+  /* Further adjust logo on very small screens */
+  .logo-image {
+    height: 28px;
   }
 }
 
